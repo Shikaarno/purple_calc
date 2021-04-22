@@ -1,0 +1,31 @@
+{
+  "name": "puple_calc",
+  "version": "1.0.0",
+  "description": "purple calc by Shikaarno",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "???"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Shikaarno/purple_calc.git"
+  },
+  "keywords": [
+    "calculator",
+    "Shikaarno",
+    "purple",
+    "html",
+    "css",
+    "javascript",
+    "gulp"
+  ],
+  "author": "shikaarno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shikaarno/purple_calc/issues"
+  },
+  "homepage": "https://github.com/Shikaarno/purple_calc#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
