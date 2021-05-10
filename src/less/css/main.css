@@ -1,0 +1,88 @@
+body {
+  box-sizing: border-box;
+  padding-top: 2em;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #ada4e7, #756cc9);
+  color: #505050;
+  font-family: 'Montserrat';
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+  outline: none;
+  color: #505050;
+}
+.calc {
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 0px 3px 7px rgba(3, 3, 3, 0.3);
+  height: 500px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: start;
+}
+.calc__title {
+  text-shadow: 2px 2px 5px #756cc9;
+  box-sizing: border-box;
+  padding: 16px;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  height: 10%;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0px -1px 4px inset #a1a1a1;
+}
+.calc__input {
+  height: 15%;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 3px #a1a1a1;
+}
+.calc__input-result {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+}
+.calc__input-expression {
+  font-family: 'Montserrat';
+  width: 300px;
+  text-align: right;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.calc__button {
+  font-size: 24px;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.calc__button- {
+  outline: none;
+  border-radius: 1px;
+  width: 25%;
+  height: 25%;
+}
+.calc__button-:hover {
+  background-color: #756cc9;
+  color: #fff;
+}
+.purple {
+  color: #756cc9;
+  background-color: rgba(235, 233, 250, 0.7);
+}

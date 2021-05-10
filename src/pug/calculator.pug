@@ -1,0 +1,55 @@
+doctype
+html
+	head
+		link(rel="stylesheet", href="css/calc.css")
+		title
+			| Калькулятор
+	body
+		.calc
+			h1.calc__title
+				| calculator
+			.calc__input
+				input.calc__input-result(value="" disabled)
+				input.calc__input-expression(value="" disabled)
+			.calc__button
+				button.calc__button-#action.purple(data-action="C")
+					| C
+				button.calc__button-#action.purple(data-action="/")
+					| &#247;
+				button.calc__button-#action.purple(data-action="*")
+					| &#10005;
+				button.calc__button-#action.purple(data-action="BS")
+					| &#8676;
+				button.calc__button-#number
+					| 1
+				button.calc__button-#number
+					| 2
+				button.calc__button-#number
+					| 3
+				button.calc__button-#action.purple(data-action="+")
+					| +
+				button.calc__button-#number
+					| 4
+				button.calc__button-#number
+					| 5
+				button.calc__button-#number
+					| 6
+				button.calc__button-#action.purple(data-action="-")
+					| &mdash;
+				button.calc__button-#number
+					| 7
+				button.calc__button-#number
+					| 8
+				button.calc__button-#number
+					| 9
+				button.calc__button-#action.purple(data-action="%")
+					| %
+				button.calc__button-#action.purple(data-action=".")
+					| .
+				button.calc__button-#number
+					| 0
+				button.calc__button-.skob.left#action.purple(data-action="()")
+					| &#10088; &#10089;
+				button.calc__button-.equal#action.purple(data-action="=")
+					| =
+		script(src="JS/purple_calc.js")
